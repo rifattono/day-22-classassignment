@@ -1,0 +1,111 @@
+
+.menu{
+    background: #000;
+    padding: 20px 0px;
+}
+.menu ul li{
+    display: inline-block;
+    margin: 0px 18px;
+    position: relative;
+}
+.menu ul li a{
+    display: inline-block;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .4s;
+    font-size: 18px;
+}
+.menu ul li:hover > a{
+     color: #4272d7;
+
+}
+.banner{
+    background-image: url(student-849825_960_720.jpg);
+    padding: 0px 0px 200px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    position: relative;
+    z-index: 1;
+}
+.banner::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, .5);
+  z-index: -1;
+}
+.title{
+    background: #ddd;
+    padding: 20px 0px;
+}
+.title h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.list-item{
+    margin-top: 200px;
+}
+.hover{
+    transition: .5s;
+}
+.hover:hover{
+    box-shadow: 0px 0px 10px #4272d7;
+}
+.list-item li{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.9em;
+    cursor: pointer;
+    transition: .4s;
+}
+.list-item li:hover{
+    color: #4272d7;
+}
+.box1 li::before{
+    content: '\f6af';
+    font-family: 'Font Awesome 5 Brands';
+    margin-right: 10px;
+}
+.box2 li::before{
+    content: '\f013';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    margin-right: 10px;
+}
+.box2 li::after{
+    content: '\f013';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    margin-left: 10px;
+}
+.box3 li::before{
+    content: '\f2a2';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    margin-right: 10px;
+}
+.footer{
+    padding: 20px 0px 10px 0px;
+    color: #fff;
+    font-weight: 600;
+}
+.footer ul li{
+    margin: 0px 5px;
+    background: #4272d7;
+    color: #000;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    transition: .4s;
+}
+.footer ul li:hover{
+    background: #e94437;
+    color: #000;
+}
